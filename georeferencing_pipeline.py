@@ -34,11 +34,9 @@ from tqdm import tqdm
 import glob
 from geopy.geocoders import GoogleV3
 
-# OPENAI_API: sk-yn9Wa8z1dxftbayTCc97A8F561B44d988e4c426152883318 sk-DSACmFQu8S6A50ps4151Ce3287Bb4f219d3e82F7A3034802
-# GOOGLEV3: AIzaSyDSNsC2yqrPn0Ov6HqDQsZcUIuHpbkqtxI AIzaSyCBG0krZDkc72xTYwhrgDmWDg6hH3JjGaU
-GOOGLE_V3_API_KEY = "AIzaSyDSNsC2yqrPn0Ov6HqDQsZcUIuHpbkqtxI"
-OPENAI_API = "sk-DSACmFQu8S6A50ps4151Ce3287Bb4f219d3e82F7A3034802"
-OPENAI_SERVER = 'https://api.kpi7.cn/v1/chat/completions'
+GOOGLE_V3_API_KEY = "[YOUR KEY]"
+OPENAI_API = "[YOUR KEY]"
+OPENAI_SERVER = "[YOUR SERVER]"
 
 
 if __name__ == '__main__':
